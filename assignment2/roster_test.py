@@ -10,6 +10,9 @@ print("2. Get the awesomeness of the second user: ", roster[2][2])
 	  
 print("3. Get the name, age, and awesomeness of the third user: Name" + str(roster[3][0]) + " Age: " + str(roster[3][1]) + " Awesomeness:" + str(roster[3][2]))
 
+def test_third_user():
+	assert str(roster[3][0]) == "Dorkus"
+
 print("4. Change the awesomeness of the first user: ")
 roster[1][2] = 90.9
 print(roster[1][2]) 
